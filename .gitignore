@@ -4,4 +4,9 @@
 *.ps
 *.bck
 *.000
+*.dsn
+*.ses
+*.net
+*.cmp
+*.brd-bak
 .DS_Store*
