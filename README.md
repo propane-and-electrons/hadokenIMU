@@ -17,3 +17,7 @@ hadokenIMU is an Arduino Leonardo compatible 9DoF inertial measurement unit (IMU
 * 1.15" x 1.8" - slightly smaller than a 1000mAh LiPo battery
 
 
+### Documents
+
+* [Schematic](docs/hadokenIMU-schematic.pdf)
+* [Bill of Materials](docs/hadokenIMU-BOM.csv)
