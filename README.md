@@ -1,18 +1,19 @@
 hadokenIMU
 ==========
 
-hadokenIMU is an Arduino Leonardo compatible 9DoF inertial measurement unit (IMU) with integrated LiPo battery charger and XBee-style radio 
-connector.
+hadokenIMU is an Arduino Leonardo compatible 9DoF inertial measurement unit (IMU) with integrated LiPo battery charger and XBee-style radio connector. The name was chosen because these boards are an integrated design for gesture recognition gloves for Super Street Fire: live action Street Fighter 2 in a ring of fire.
 
-The ATMega32U4 microcontroller can be flashed via an ICSP port on the back of the board using pogo pins in the standard 2x3 header, 0.1" spacing.
+![hadokenIMU photo](docs/hadokenIMU.jpg)
 
-The IMU uses a MPU-9150 chip for 3-axis accelerometer, gyroscope, and magnetometer data over I2C.
+Feature Summary
+---------------
 
-The radio connector is designed for use with Roving Networks RN-XV WiFly modules, and uses the "Bee" footprint made popular by XBee.
+* Arduino Leonardo compatible
+* Programmable via Mini USB jack or 6-pin ICSP header using pogo pins
+* Wireless support with [RN-XV WiFly](http://rovingnetworks.com/products/RN171XV), Bluetooth Bee, or compatible radio
+* Uses an [Invensense MPU-9150](http://www.invensense.com/mems/gyro/mpu9150.html) 9DoF sensor for 3-axis accelerometer, gyroscope, and magnetometer data over I2C
+* Battery power provided through a 2-pin JST header
+* LiPo charging circuitry integrated - charge off USB connection
+* Optional button connector for output trigger
 
-Battery power is provided through a 2-pin JST header, standard on many LiPo batteries. A mini USB jack provides power to charge the battery 
-and can be used to reprogram the ATMega32U4 chip.
 
-This project is called hadokenIMU because these boards are an integrated design for gesture recognition gloves for Super Street Fire: live 
-action Street Fighter 2 in a ring of fire. Wear two gloves, do the iconic move, receive fire - that's what this hardware was originally 
-made for.
